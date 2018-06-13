@@ -1,0 +1,243 @@
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 850px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shortText {
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.active{
+    background: #EBE9E9;
+    color: #157ab5;
+}
+
+#manage-site{
+    display: flex;
+    height: 100%;
+}
+
+#manage-site .panel:first-child{
+    min-width: 400px;
+    width: 30%;
+}
+
+#manage-site .panel:last-child{
+    min-width: 450px;
+    width: 70%;
+}
+
+.panel-body .selectContainer{
+    margin-bottom: 5px; 
+}
+
+.panel-body li{
+    cursor: pointer;
+}
+
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    /*padding-bottom: 10px; */
+}
+
+.selectPage {
+    font-weight: bold;
+}
+
+.img-on-btn{
+    display: inline-block; 
+    padding: 0;
+    margin-bottom: 5px;  
+    margin-right: 5px;  
+}
+
+.addBtn{
+    width: 100%;
+    margin: 0;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+    background-color: rgba(0,0,0, 0.5);
+  }
+
+.popup-inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 5px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popup-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup-btn-container .btn-default{
+    margin-left: 10px;
+}
+
+.siteRightPanel {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.selectContainer span, .selectContainerX2 span{
+    width: 90px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.selectContainer {
+    min-width: 350px;
+}
+
+.selectContainerX2 {
+    min-width: 500px;
+}
+
+.pageSetting{
+    display: inline-block;
+    width: 150px;
+}
+
+.pageSettingX2{
+    display: inline-block;
+    width: 300px;
+}
+
+.pageSettingCombo {
+   display: inline-block;
+   width: 110px;
+}
+
+input[type="radio"],input[type="checkbox"] {
+    margin-top: -1px;
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+/* #smallInvisibleInput{
+    visibility: hidden;
+    position: absolute;
+} */
+
+#add-tab-page, #refresh{
+    outline: none;
+}
+
+#refresh{
+    background: none;
+    border: none;
+}
+
+#add-tab-page:hover, #refresh:focus, #add-tab-page:focus{
+    background-color: inherit;
+    border: inherit;
+}
+
+/*[id^=codeContainer]{
+    min-width: 500px;
+    /*width: 45%;*/
+    /*padding: 15px;
+}*/
+
+.codeContainer{
+    position: relative;
+    height: 100%;
+}
+
+.code textarea{
+    width: 100%;
+    resize: none; 
+    outline: none;
+    border: none;
+}
+
+.codeBtn{
+    width: 100%
+}
+
+.details{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tree{
+    list-style: none;
+    /* height: 400px; */
+}
+
+.JDI{
+    padding: 0;
+    border-radius: 2px;
+    /* border: none; */
+    /* background: none; */
+}
+.JDI img {
+    border-radius: 2px;
+}
+
+.btnWithoutPM{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    right: 5px;
+}
+
+.start{
+    margin-top: 10px;
+}
+
+li a{
+    min-width: 120px;
+    display: inline-block; 
+}
+
+.panel-default{
+    margin-bottom:0; 
+}
+
+.truncate {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
