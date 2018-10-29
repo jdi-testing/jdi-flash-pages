@@ -271,8 +271,7 @@ export let importRules = (mainObj, files) => {
         document.querySelector('#refresh').click();
     }
     objCopy.selectedRule = '';
-    objCopy.ruleId = -1;
-    console.log('log', log)
+    objCopy.ruleId = -1;8
     return objCopy;
 }
 
